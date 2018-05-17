@@ -14,6 +14,7 @@ RUN npm install
 
 # Bundle app source
 # COPY . .
+ADD src /usr/src/app/src
 
 EXPOSE 8888
 
