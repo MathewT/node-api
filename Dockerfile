@@ -1,4 +1,5 @@
 FROM node:8.11.1-alpine
+RUN apk --update add postgresql-client && rm -rf /var/cache/apk/*
 
 # Create app directory
 WORKDIR /usr/src/app
