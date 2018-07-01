@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "express": "^4.16.1",
+    "body-parser": "1.18.3",
     "request": "2.85.0",
     "axios": "0.18.0",
     "pg": "7.4.3",
+    "googleapis": "31.0.2",
     "lodash": "4.17.5"
   }
 }
